@@ -6,7 +6,7 @@
 * access https://localhost:8000
 
  <br>
- -  don't forget to download the trezor wallet source file, or <br>
+ * don't forget to download the trezor wallet source file, or <br>
     just uncomment the wget command in dockerfile
  <br><br>
 
