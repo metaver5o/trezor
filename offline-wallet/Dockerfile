@@ -9,5 +9,4 @@ LABEL maintainer="M Matos me@mmatos.com"
 # uncomment following line in case you arealdy downloaded tgz file
     ADD mytrezor-archive.tgz .
     WORKDIR /mytrezor
-    # ENTRYPOINT [ "/usr/local/bin/python3" ]
     CMD ["python", "-m", "http.server", "8000"]
