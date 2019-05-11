@@ -8,4 +8,4 @@ no internet connection needed. Runs on Docker.
 
 * seed-gen: <br>
 simple shell script to generate your own 24 words wallet seed <br>
-useful if you don't want to generate it online
+useful if you want to generate it offline
