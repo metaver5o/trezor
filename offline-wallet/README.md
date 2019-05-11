@@ -10,6 +10,9 @@
     just uncomment the wget command in dockerfile
  <br><br>
 
+# TO DO
+* need to create raspberry pi full node, in order to connect to a private backend
+
 # not working for OSX
 you must user docker-machine instead: <br>
 ` docker-machine create --driver virtualbox default ` <br>
