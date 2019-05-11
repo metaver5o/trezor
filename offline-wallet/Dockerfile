@@ -5,6 +5,6 @@ FROM python:3
 
 # uncomment following line in case you arealdy downloaded tgz file
     ADD mytrezor-archive.tgz .
-    WORKDIR /mytrezor
-    CMD [ "python3 -m http.server 8000" ]
+#    WORKDIR /mytrezor
+    CMD [ "/usr/local/bin/python3", "-m", "http.server 8000" ]
     EXPOSE 8000
